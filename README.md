@@ -1,4 +1,4 @@
-🎫 Alibaba Ticket Finder
+#🎫 Alibaba Ticket Finder
 This Node.js application enables you to search for ticket availability on the alibaba.ir website. By utilizing the config.json file for configuration, it sends requests to find tickets. Make sure to install the necessary packages using npm install before running the application.
 
 **🚀 Quick Start**
