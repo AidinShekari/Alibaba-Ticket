@@ -1,0 +1,9 @@
+{
+    "urls": [
+      "https://www.alibaba.ir/train/example1",
+      "https://www.alibaba.ir/flights/example2",
+      "https://www.alibaba.ir/bus/example3"
+    ],
+    "webhookUrl": "https://discord.com/api/webhooks/-"
+  }
+  
