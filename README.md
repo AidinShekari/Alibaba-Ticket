@@ -3,7 +3,7 @@ This Node.js application enables you to search for ticket availability on the al
 
 # **🚀 Quick Start**
 Clone the repository: git clone https://github.com/DarkZo0m/alibaba-ticket
-Navigate to the project directory: cd alibaba-ticket-finder
+Navigate to the project directory: cd alibaba-ticket
 Install the required packages: npm install
 Configure the application by updating the config.json file with your desired URLs and webhook URL.
 Run the application: node index.js
