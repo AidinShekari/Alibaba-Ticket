@@ -1,25 +1,29 @@
-# 🎫 Alibaba Ticket Finder
-This Node.js application enables you to search for ticket availability on the alibaba.ir website. By utilizing the config.json file for configuration, it sends requests to find tickets. Make sure to install the necessary packages using npm install before running the application.
+# 🎫 Alibaba-Ticket | بلیط علی بابا
+این برنامه Node.js به شما امکان می‌دهد تا در دسترس بودن بلیط‌ها را در وب‌سایت علی‌بابا (alibaba.ir) جستجو کنید. با استفاده از فایل config.json برای تنظیمات، درخواست‌هایی برای یافتن بلیط‌ها ارسال می‌کند. قبل از اجرای برنامه، حتماً بسته‌های موردنیاز را با استفاده از npm install نصب کنید.
 
-# **🚀 Quick Start**
+# **🚀 شروع سریع**
 
-Clone the repository: git clone https://github.com/AidinShekari/alibaba-ticket
+مخزن را کلون کنید:  
+`git clone https://github.com/AidinShekari/alibaba-ticket`
 
-Navigate to the project directory: cd alibaba-ticket
-Install the required packages: npm install
+به پوشه پروژه بروید:  
+`cd alibaba-ticket`
 
-Configure the application by updating the config.json file with your desired URLs and webhook URL.
+بسته‌های موردنیاز را نصب کنید:  
+`npm install`
 
-Run the application: node index.js
+برنامه را با به‌روزرسانی فایل config.json با URLهای موردنظر و URL وب‌هوک تنظیم کنید.
 
-# **⚙️ Configuration**
-Update the config.json file with the following information:
+برنامه را اجرا کنید:  
+`node index.js`
 
-urls: An array of URLs representing the ticket search queries on alibaba.ir.
+# **⚙️ تنظیمات**
+فایل config.json را با اطلاعات زیر به‌روزرسانی کنید:
 
-webhookUrl: The Discord webhook URL to send ticket availability notifications.
+- **urls**: آرایه‌ای از URLهای مربوط به جستجوی بلیط در وب‌سایت علی‌بابا.
+- **webhookUrl**: URL وب‌هوک دیسکورد برای ارسال اعلان‌های در دسترس بودن بلیط.
 
-# **📝 Description**
-This application uses the provided URLs and makes requests to the alibaba.ir website to check for ticket availability. It utilizes the axios, moment-jalaali, and discord.js packages to handle HTTP requests, date conversion, and Discord webhook integration, respectively.
+# **📝 توضیحات**
+این برنامه با استفاده از URLهای ارائه‌شده، درخواست‌هایی به وب‌سایت علی‌بابا ارسال می‌کند تا در دسترس بودن بلیط‌ها را بررسی کند. از بسته‌های axios، moment-jalaali و discord.js به‌ترتیب برای مدیریت درخواست‌های HTTP، تبدیل تاریخ و ادغام با وب‌هوک دیسکورد استفاده می‌کند.
 
-![image](https://github.com/DarkZo0m/alibaba-ticket/assets/59771519/aa9dc4ed-cfc1-4fb9-9c54-3ce04407f6fc)
+![تصویر](https://github.com/DarkZo0m/alibaba-ticket/assets/59771519/aa9dc4ed-cfc1-4fb9-9c54-3ce04407f6fc)
